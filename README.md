@@ -6,9 +6,7 @@
 
 ## Descrição
 
-Repositorio para listar as soluções desenvolvidas para os desafios de [frontend mentor](https://www.frontendmentor.io/challenges/)
-
-Realizando desafios do site https://frontloops.io para praticar front end.
+Repositorio para listar as soluções desenvolvidas para os desafios de [frontend mentor](https://www.frontendmentor.io/challenges/).
 
 | Desafio                                                                                 | Preview                                                                                                                                | Status             |
 | --------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- | ------------------ |
