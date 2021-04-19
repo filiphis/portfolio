@@ -42,6 +42,8 @@ body {
   }
 
   &__card {
+    display: flex;
+    flex-direction: column;
     background-color: $background-card;
     box-shadow: 2px 2px 6px 2px rgba(0, 0, 0, 0.192), -2px 2px 6px 2px rgba(0, 0, 0, 0.192);
     transition: all ease 0.5s;
@@ -92,6 +94,14 @@ body {
       opacity: 1;
     }
   }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: space-between;
+  }
+
   &__title {
     font-family: $ubuntu-font;
     font-size: 1.6rem;
@@ -106,6 +116,7 @@ body {
   }
 
   &__tagItem {
+    display: inline-block;
     font-size: 1.2rem;
     font-family: $roboto-font;
     font-weight: bold;
@@ -124,6 +135,10 @@ body {
     }
     &--bem {
       background-color: #8a8a9a;
+    }
+    &--github {
+      width: 41px;
+      height: 25px;
     }
   }
 }
