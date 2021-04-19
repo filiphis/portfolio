@@ -1,0 +1,271 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+s article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+:root {
+  font-size: 60%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #090b1a;
+  padding: 2.5rem;
+}
+
+body,
+input,
+button,
+textarea {
+  font: 400 1.6rem/1.5 "Inter", sans-serif;
+}
+
+@media (min-width: 800px) {
+  :root {
+    font-size: 62.5%;
+  }
+
+  :root,
+html,
+body {
+    height: 100vh;
+  }
+}
+body {
+  display: grid;
+  place-items: center;
+}
+
+.card {
+  background-color: #1b1938;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 240px 1fr;
+  grid-template-areas: "card__image" "card__content";
+  min-width: 250px;
+  border-radius: 1rem;
+}
+@media (min-width: 800px) {
+  .card {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "card__content card__image";
+    max-width: 100rem;
+  }
+}
+.card__image {
+  grid-area: card__image;
+  background: url(../images/image-header-mobile.jpg) no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  position: relative;
+  border-radius: 1rem 1rem 0 0;
+}
+.card__image::before {
+  content: "";
+  position: absolute;
+  border-radius: 1rem 1rem 0 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(125, 0, 202, 0.35);
+  z-index: 1;
+}
+@media (min-width: 800px) {
+  .card__image::before {
+    border-radius: 0 1rem 1rem 0;
+  }
+}
+@media (min-width: 800px) {
+  .card__image {
+    border-radius: 0 1rem 1rem 0;
+  }
+}
+.card__content {
+  grid-area: card__content;
+  padding: 4rem 3rem;
+  text-align: center;
+}
+@media (min-width: 800px) {
+  .card__content {
+    margin-right: 4rem;
+  }
+}
+.card__title {
+  font-family: "Inter", sans-serif;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 2.8rem;
+  margin-bottom: 2rem;
+}
+.card__title--acent {
+  color: #aa5cdb;
+}
+.card__paragraph {
+  color: rgba(255, 255, 255, 0.749);
+  font-size: 1.6rem;
+  margin-bottom: 4rem;
+}
+@media (min-width: 800px) {
+  .card__stats {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+.card__item {
+  display: flex;
+  flex-direction: column;
+  font-family: "Inter", sans-serif;
+}
+.card__item:not(:last-child) {
+  margin-bottom: 3rem;
+}
+@media (min-width: 800px) {
+  .card__item:not(:last-child) {
+    margin-bottom: 0;
+  }
+}
+.card__text--bolder {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 2.8rem;
+}
+.card__text--small {
+  color: rgba(255, 255, 255, 0.6);
+  text-transform: uppercase;
+  font-size: 1.4rem;
+}
+
+/*# sourceMappingURL=style.css.map */
