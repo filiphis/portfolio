@@ -15,7 +15,7 @@ Repositorio para listar as soluções desenvolvidas para os desafios de [fronten
 | Name | img | statusMark | RepoLink | SiteLink | -->
 
 | Desafio | Preview | Status| Repo Link | Site Link |
-|--|--|--|--|--|
+|:--:|:--:|:--:|:--:|:--:|
 | 3-column-preview-card-component | <img  src = "3-column-preview-card-component/design/desktop-preview.jpg" width = "120 " /> | :heavy_check_mark: | [RepoLink](https://github.com/filiphis/portfolio/tree/main/3-column-preview-card-component) | SiteLink |
 
 
