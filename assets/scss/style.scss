@@ -13,11 +13,16 @@ body {
   // border: 1px dashed tomato;
 }
 
+.obs {
+  justify-self: flex-start;
+  margin-bottom: 4rem;
+}
+
 .title {
   color: $heading-font-color;
   font-family: $roboto-font;
   font-size: 2.8rem;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
   // text-align: left;
 }
 

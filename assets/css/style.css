@@ -168,11 +168,16 @@ body {
   max-width: 1200px;
 }
 
+.obs {
+  justify-self: flex-start;
+  margin-bottom: 4rem;
+}
+
 .title {
   color: #000;
   font-family: "Roboto", sans-serif;
   font-size: 2.8rem;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 }
 
 .challenges {
