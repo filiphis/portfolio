@@ -12,7 +12,7 @@ Realizando desafios do site https://frontloops.io para praticar front end.
 
 | Desafio                                                                                 | Preview                                                                                                                                | Status             |
 | --------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- | ------------------ |
-| [3-column-preview-card-component](https://github.com/filiphis/front-end-challenges/tree/master/challenge01) | <img  src = "https://raw.githubusercontent.com/filiphis/portfolio/master/preview-images/3-column-preview-card-component.PNG " width = "120 " /> | :white_check_mark: |
+| [3-column-preview-card-component](https://github.com/filiphis/front-end-challenges/tree/master/challenge01) | <img  src = "preview-images/3-column-preview-card-component.jpg" width = "120 " /> | :white_check_mark: |
 
 ### Autor
 ---
@@ -21,4 +21,4 @@ Luiz Felipe da Silveira
 
 ### Entre em contato!
 
-![Linkedin Badge](https://img.shields.io/badge/-Luiz-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/luiz-silveira-front-end/)[![Outlook Badge](https://img.shields.io/badge/-l.filiphis@hotmail.com-blue?style=flat-square&logo=microsoft-outlook&logoColor=white&link=mailto:l.filiphis@hotmail.com)](mailto:l.filiphis@hotmail)
+![Linkedin Badge](https://img.shields.io/badge/-Luiz-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/luiz-silveira-front-end/) [![Outlook Badge](https://img.shields.io/badge/-l.filiphis@hotmail.com-blue?style=flat-square&logo=microsoft-outlook&logoColor=white&link=mailto:l.filiphis@hotmail.com)](mailto:l.filiphis@hotmail)
