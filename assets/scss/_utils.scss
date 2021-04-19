@@ -1,0 +1,12 @@
+// Tablet ++ resolution
+@mixin for-tablet {
+  @media (min-width: 730px) {
+    @content;
+  }
+}
+
+@mixin for-mobile {
+  @media (max-width: 530px) {
+    @content;
+  }
+}

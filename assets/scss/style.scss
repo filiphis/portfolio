@@ -1,0 +1,124 @@
+@import "base";
+@import "card";
+
+body {
+  display: grid;
+  place-items: center;
+  background-color: $color-background;
+}
+
+.container {
+  max-width: 1200px;
+  // margin: 0 auto;
+  // border: 1px dashed tomato;
+}
+
+.title {
+  color: $heading-font-color;
+  font-family: $roboto-font;
+  font-size: 2.8rem;
+  margin-bottom: 4rem;
+  // text-align: left;
+}
+
+.challenges {
+  margin-bottom: 4rem;
+  &__list {
+    display: grid;
+    grid-template-columns: minmax(200px, 380px) minmax(200px, 380px) minmax(200px, 380px);
+    grid-template-rows: 1fr;
+    justify-content: center;
+    grid-auto-flow: row;
+    gap: 3%;
+
+    @include for-mobile {
+      grid-template-columns: minmax(200px, 380px);
+    }
+  }
+
+  &__card {
+    background-color: $background-card;
+    box-shadow: 2px 2px 6px 2px rgba(0, 0, 0, 0.192), -2px 2px 6px 2px rgba(0, 0, 0, 0.192);
+    transition: all ease 0.5s;
+    &:hover {
+      transform: translateY(-6px);
+    }
+  }
+
+  &__figure {
+    position: relative;
+  }
+
+  &__image {
+    max-width: 100%;
+  }
+
+  &__link {
+    width: 100%;
+    height: 96%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    font-size: 2.2rem;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    opacity: 0;
+    transition: all ease 0.3s;
+    font-weight: bold;
+    font-family: $roboto-font;
+
+    &::before {
+      content: "";
+      background-color: rgba(36, 36, 36, 0.705);
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      z-index: -1;
+    }
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+  &__title {
+    font-family: $ubuntu-font;
+    font-size: 1.6rem;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  &__tags {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 0;
+  }
+
+  &__tagItem {
+    font-size: 1.2rem;
+    font-family: $roboto-font;
+    font-weight: bold;
+    color: white;
+    padding: 0.4rem;
+    margin: 0 0.4rem;
+    border-radius: 3px;
+    &--html {
+      background-color: #fc490b;
+    }
+    &--css {
+      background-color: #2196f3;
+    }
+    &--sass {
+      background-color: #cd6699;
+    }
+    &--bem {
+      background-color: #8a8a9a;
+    }
+  }
+}
