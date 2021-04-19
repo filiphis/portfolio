@@ -8,9 +8,20 @@
 
 Repositorio para listar as soluções desenvolvidas para os desafios de [frontend mentor](https://www.frontendmentor.io/challenges/).
 
-| Desafio    | Preview | Status | Repo Link | Site Link |
-| ------------- | -------------------------------------------------------------------------------------------------------------------------------------- | ------------------ |
-| [3-column-preview-card-component](https://github.com/filiphis/front-end-challenges/tree/master/challenge01) | <img  src = "preview-images/3-column-preview-card-component.jpg" width = "120 " /> | :white_check_mark: | [Repo Link](3-column-preview-card-component) | [Site Link](https://filiphis.github.io/3-column-preview-card-component/) |
+
+<!--
+| Desafio | Preview | Status| Repo Link | Site Link |
+|--|--|--|--|--|
+| Name | img | statusMark | RepoLink | SiteLink | -->
+
+| Desafio | Preview | Status| Repo Link | Site Link |
+|--|--|--|--|--|
+| 3-column-preview-card-component | <img  src = "preview-images/3-column-preview-card-component.jpg" width = "120 " /> | :heavy_check_mark: | RepoLink | SiteLink |
+
+
+
+
+<!-- | [3-column-preview-card-component](https://github.com/filiphis/front-end-challenges/tree/master/challenge01) | <img  src = "preview-images/3-column-preview-card-component.jpg" width = "120 " /> | :white_check_mark: | [Repo Link](3-column-preview-card-component) | [Site Link](https://filiphis.github.io/3-column-preview-card-component/) | -->
 
 ### Autor
 ---

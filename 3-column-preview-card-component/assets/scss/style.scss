@@ -1,0 +1,103 @@
+@import "base";
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: 1fr;
+  grid-template-areas:
+    "sedans"
+    "suvs"
+    "luxury";
+
+  @include for-tablet {
+    justify-items: center;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(3, minmax(min-content, 31rem));
+    justify-content: center;
+    grid-template-areas: "sedans suvs luxury";
+  }
+
+  .section {
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+
+    &__title {
+      font: 700 3.2rem/1.5 $bold-font;
+      text-transform: uppercase;
+      color: $very-light-gray;
+      margin-bottom: 3.2rem;
+      position: relative;
+
+      &::before {
+        content: "";
+        width: 70px;
+        height: 45px;
+        display: block;
+        margin-bottom: 3rem;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+    }
+
+    &__description {
+      color: $transparent-white;
+      margin-bottom: 3.2rem;
+    }
+
+    &__learnMore {
+      display: inline-block;
+      text-align: center;
+      line-height: 5rem;
+      text-decoration: none;
+      width: 15rem;
+      height: 5rem;
+      margin-top: 3rem;
+      background-color: $very-light-gray;
+      border-radius: 3rem;
+      color: currentColor;
+      transition: box-shadow, color, background 0.2s ease-in-out;
+      &:hover {
+        background-color: inherit;
+        color: $very-light-gray;
+        box-shadow: inset 1px 1px 1px 1px $very-light-gray, inset -1px -1px 1px 1px $very-light-gray;
+      }
+    }
+
+    @include for-tablet {
+      max-width: 31rem;
+    }
+  }
+
+  .sedans {
+    background-color: $bright-orange;
+    color: $bright-orange;
+
+    .section__title::before {
+      background-image: url(../images/icon-sedans.svg);
+    }
+  }
+  .suvs {
+    background-color: $dark-cyan;
+    color: $dark-cyan;
+
+    .section__title::before {
+      background-image: url(../images/icon-suvs.svg);
+    }
+  }
+  .luxury {
+    background-color: $very-dark-cyan;
+    color: $very-dark-cyan;
+
+    .section__title::before {
+      background-image: url(../images/icon-luxury.svg);
+    }
+  }
+}
