@@ -1,22 +1,24 @@
-# Frontend Mentor - 3-column preview card component
+# Frontend Mentor - Challenges
 
 <!-- > **_Status:_** Em andamento :construction: -->
-> **_Status:_** Finalizado :heavy_check_mark:
+<!-- > **_Status:_** Finalizado :heavy_check_mark: -->
 
-## Preview
-
-Visualize a solução em: https://filiphis.github.io/3-column-preview-card-component
-
-![Design preview for the Single Price Grid Component coding challenge](./design/desktop-preview.jpg)
 
 ## Descrição
 
-Este desafio foi desenvolvido com o intuito de servir de portfolio e tambem para praticar e aprimorar meus conhecimentos no desenvolvimento front-end.
+Repositorio para listar as soluções desenvolvidas para os desafios de [frontend mentor](https://www.frontendmentor.io/challenges/)
 
-Layout disponibilizado por [frontendmentor](https://www.frontendmentor.io/challenges).
+Realizando desafios do site https://frontloops.io para praticar front end.
 
-## Tecnologias utilizadas
-* HTML
-* CSS
-* SASS
-* Metodologia BEM
+| Desafio                                                                                 | Preview                                                                                                                                | Status             |
+| --------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- | ------------------ |
+| [3-column-preview-card-component](https://github.com/filiphis/front-end-challenges/tree/master/challenge01) | <img  src = "https://raw.githubusercontent.com/filiphis/portfolio/master/preview-images/3-column-preview-card-component.PNG " width = "120 " /> | :white_check_mark: |
+
+### Autor
+---
+
+Luiz Felipe da Silveira
+
+### Entre em contato!
+
+![Linkedin Badge](https://img.shields.io/badge/-Luiz-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/luiz-silveira-front-end/)[![Outlook Badge](https://img.shields.io/badge/-l.filiphis@hotmail.com-blue?style=flat-square&logo=microsoft-outlook&logoColor=white&link=mailto:l.filiphis@hotmail.com)](mailto:l.filiphis@hotmail)
