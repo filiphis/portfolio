@@ -16,7 +16,7 @@ Repositorio para listar as soluções desenvolvidas para os desafios de [fronten
 
 | Desafio | Preview | Status| Repo Link | Site Link |
 |--|--|--|--|--|
-| 3-column-preview-card-component | <img  src = "preview-images/3-column-preview-card-component.jpg" width = "120 " /> | :heavy_check_mark: | RepoLink | SiteLink |
+| 3-column-preview-card-component | <img  src = "3-column-preview-card-component/design/desktop-preview.jpg" width = "120 " /> | :heavy_check_mark: | [RepoLink](https://github.com/filiphis/portfolio/tree/main/3-column-preview-card-component) | SiteLink |
 
 
 
@@ -28,6 +28,6 @@ Repositorio para listar as soluções desenvolvidas para os desafios de [fronten
 
 Luiz Felipe da Silveira
 
-### Entre em contato!
+### Contatos:
 
 ![Linkedin Badge](https://img.shields.io/badge/-Luiz-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/luiz-silveira-front-end/) [![Outlook Badge](https://img.shields.io/badge/-l.filiphis@hotmail.com-blue?style=flat-square&logo=microsoft-outlook&logoColor=white&link=mailto:l.filiphis@hotmail.com)](mailto:l.filiphis@hotmail)
