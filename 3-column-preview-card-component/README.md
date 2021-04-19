@@ -5,7 +5,7 @@
 
 ## Preview
 
-Visualize a solução em: https://filiphis.github.io/3-column-preview-card-component
+Visualize a solução em: https://3-column-preview-card-component-hazel.vercel.app/
 
 ![Design preview for the Single Price Grid Component coding challenge](./design/desktop-preview.jpg)
 
