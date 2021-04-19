@@ -3,6 +3,7 @@
 <!-- > **_Status:_** Em andamento :construction: -->
 <!-- > **_Status:_** Finalizado :heavy_check_mark: -->
 
+Visualize as soluções em: https://filiphis.github.io/portfolio/
 
 ## Descrição
 
@@ -16,7 +17,7 @@ Repositorio para listar as soluções desenvolvidas para os desafios de [fronten
 
 | Desafio | Preview | Status| Repo Link | Site Link |
 |:--:|:--:|:--:|:--:|:--:|
-| 3-column-preview-card-component | <img  src = "3-column-preview-card-component/design/desktop-preview.jpg" width = "120 " /> | :heavy_check_mark: | [RepoLink](https://github.com/filiphis/portfolio/tree/main/3-column-preview-card-component) | [SiteLink](https://3-column-preview-card-component-hazel.vercel.app/) |
+| 3-column-preview-card-component | <img  src = "3-column-preview-card-component/design/desktop-preview.jpg" width = "120 " /> | :heavy_check_mark: | [Repo](https://github.com/filiphis/portfolio/tree/main/3-column-preview-card-component) | [Site](https://3-column-preview-card-component-hazel.vercel.app/) |
 
 
 
