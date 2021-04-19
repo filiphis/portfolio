@@ -1,11 +1,11 @@
-# Frontend Mentor - Profile card component
+# Frontend Mentor - Single Price Grid Component
 
 <!-- > **_Status:_** Em andamento :construction: -->
 > **_Status:_** Finalizado :heavy_check_mark:
 
 ## Preview
 
-Visualize a solução em: https://profile-card-component-kappa-mauve.vercel.app/
+Visualize a solução em: https://single-price-grid-component-zeta-liard.vercel.app/
 
 ![Design preview for the coding challenge](./design/desktop-preview.jpg)
 
@@ -18,7 +18,6 @@ Layout disponibilizado por [frontendmentor](https://www.frontendmentor.io/challe
 ## Tecnologias utilizadas
 * HTML
 * CSS
-* SASS
 * Metodologia BEM
 
 ## Autor

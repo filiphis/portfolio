@@ -1,0 +1,4 @@
+.subscription {
+  background-color: var(--color-primary);
+  color: var(--color-text-in-primary);
+}

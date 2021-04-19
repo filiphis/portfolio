@@ -1,0 +1,16 @@
+:root {
+  /* --font-size: 60%; */
+  --family-primary: 'Karla', sans-serif;
+
+  --color-background: #e5eff5;
+  --color-primary-light: #2ab2b0b3;
+  --color-primary: #2ab2af;
+  --color-secundary: #c0df34;
+  --color-text-in-primary: #ffffff;
+  --color-button-text: #ffffff;
+  --color-button-background: #c0df34;
+  --color-box-header: #ffffff;
+  --color-text-in-box-header: #98a6bd;
+  --color-title-in-box-header:#2ab2af;
+  --color-legend-in-box-header:#c0df34;
+}

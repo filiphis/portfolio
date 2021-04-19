@@ -1,0 +1,6 @@
+.joinCommunity__title {
+  color: var(--color-title-in-box-header);
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: start;
+}

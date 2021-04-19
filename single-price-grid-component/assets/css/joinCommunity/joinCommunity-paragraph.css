@@ -1,0 +1,7 @@
+.joinCommunity__paragraph{
+  color: var(--color-text-in-box-header);
+  margin-top: 2rem;
+  font-size: 1.3rem;
+  line-height: 1.6;
+  max-width: 60ch;
+}

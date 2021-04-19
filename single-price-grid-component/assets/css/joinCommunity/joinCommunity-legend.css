@@ -1,0 +1,6 @@
+.joinCommunity__legend{
+  color: var(--color-legend-in-box-header);
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-top: 2rem;
+}

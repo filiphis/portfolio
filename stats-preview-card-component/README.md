@@ -7,7 +7,7 @@
 
 Visualize a solução em: https://stats-preview-card-component-eta.vercel.app/
 
-![Design preview for the Single Price Grid Component coding challenge](./design/desktop-preview.jpg)
+![Design preview for the coding challenge](./design/desktop-preview.jpg)
 
 ## Descrição
 

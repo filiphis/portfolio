@@ -1,0 +1,22 @@
+.subscription__paragraph {
+  color: var(--color-text-in-primary);
+}
+
+.paragraph__price {
+  display: inline-block;
+  font-size: 3rem;
+  font-weight: bold;
+  margin-right: .6rem;
+  padding-top: 2rem;
+}
+
+.paragraph__text{
+  display: block;
+  margin-top: 1rem;
+}
+
+.paragraph__text--opacity{
+  opacity: .5;
+  vertical-align:super;
+
+}
