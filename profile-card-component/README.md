@@ -1,13 +1,13 @@
-# Frontend Mentor - 3-column preview card component
+# Frontend Mentor - Profile card component
 
 <!-- > **_Status:_** Em andamento :construction: -->
 > **_Status:_** Finalizado :heavy_check_mark:
 
 ## Preview
 
-Visualize a solução em: https://3-column-preview-card-component-hazel.vercel.app/
+Visualize a solução em: https://filiphis.github.io/profile-card-component/
 
-![Design preview for the Single Price Grid Component coding challenge](./design/desktop-preview.jpg)
+![Design preview for the Profile card component](./design/desktop-preview.jpg)
 
 ## Descrição
 
