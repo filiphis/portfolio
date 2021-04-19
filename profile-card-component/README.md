@@ -5,7 +5,7 @@
 
 ## Preview
 
-Visualize a solução em: https://filiphis.github.io/profile-card-component/
+Visualize a solução em: https://profile-card-component-kappa-mauve.vercel.app/
 
 ![Design preview for the Profile card component](./design/desktop-preview.jpg)
 
