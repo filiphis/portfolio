@@ -15,26 +15,43 @@ body {
 
 .obs {
   justify-self: flex-start;
-  margin-bottom: 8rem;
+  margin-bottom: 4rem;
+  margin-top: 4rem;
+  color: $paragraph-font-color;
+  letter-spacing: 1px;
+  font-weight: bold;
 }
 
 .title {
-  color: $heading-font-color;
-  font-family: $roboto-font;
-  font-size: 2.8rem;
-  margin-bottom: 1rem;
-  // text-align: left;
+  color: $paragraph-font-color;
+  font-family: $heading-font;
+  font-size: 4rem;
+  margin-bottom: 1 rem;
+  letter-spacing: 1px;
+  position: relative;
+  &::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    bottom: -1.4rem;
+    left: 0;
+    background-color: $heading-border-color;
+  }
 }
 
 .challenges {
-  margin-bottom: 4rem;
+  margin-bottom: rem;
   &__list {
     display: grid;
     grid-template-columns: minmax(200px, 380px) minmax(200px, 380px) minmax(200px, 380px);
     grid-template-rows: 1fr;
     justify-content: center;
-    grid-auto-flow: row;
-    gap: 3%;
+    gap: 3rem;
+
+    @include for-tablet {
+      grid-template-columns: 1fr 1fr;
+    }
 
     @include for-mobile {
       grid-template-columns: minmax(200px, 380px);
@@ -42,6 +59,7 @@ body {
   }
 
   &__card {
+    min-width: 240px;
     display: flex;
     flex-direction: column;
     background-color: $background-card;
@@ -76,8 +94,7 @@ body {
     letter-spacing: 6px;
     opacity: 0;
     transition: all ease 0.3s;
-    font-weight: bold;
-    font-family: $roboto-font;
+    font-family: $text-font;
 
     &::before {
       content: "";
@@ -103,10 +120,11 @@ body {
   }
 
   &__title {
-    font-family: $ubuntu-font;
-    font-size: 1.6rem;
+    font-family: $text-font;
+    color: $heading-font-color;
     text-align: center;
-    font-weight: bold;
+    font-size: 1.8rem;
+    letter-spacing: 1px;
   }
 
   &__tags {
@@ -118,7 +136,7 @@ body {
   &__tagItem {
     display: inline-block;
     font-size: 1.2rem;
-    font-family: $roboto-font;
+    font-family: $text-font;
     font-weight: bold;
     color: white;
     padding: 0.4rem;

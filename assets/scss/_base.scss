@@ -19,7 +19,8 @@ body,
 input,
 button,
 textarea {
-  font: 400 1.6rem/1.5 $roboto-font;
+  font: 400 1.6rem/1.5 $text-font;
+  line-height: 1.5;
 }
 
 @include for-tablet {
