@@ -1,0 +1,19 @@
+.footer__address {
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    margin-top: 2.75rem;
+}
+
+@media screen and (min-width: 464px) {
+    .footer__address  {
+        margin: 0 auto;
+    }
+}
+
+
+@media screen and (min-width: 584px) {
+    .footer__address  {
+        margin: unset;
+    }
+}

@@ -1,0 +1,9 @@
+.menu__link {
+    font-size: var(--size-small);
+    font-family: var(--family-nav);
+    color: var(--dark-blue);
+}
+
+.menu__link:hover {
+    text-decoration: underline;
+}

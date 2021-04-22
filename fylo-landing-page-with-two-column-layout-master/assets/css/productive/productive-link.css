@@ -1,0 +1,19 @@
+.productive__link {
+    border-bottom: solid 2px #157957;
+    color: #157957;
+    display: inline-block;
+    font-size: .95rem;
+    margin-top: 1.8rem;
+    padding-bottom: .3rem;
+
+    
+}
+
+
+.productive__link--arrow {
+    background-image: url(../../images/icon-arrow.svg);
+    background-position: right top -1px;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    padding-right: 1.5rem;
+}

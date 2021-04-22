@@ -1,0 +1,16 @@
+.productive {
+    background-color: #f6f6fe;
+    text-align: center;
+    padding-bottom: 4.5rem;
+}
+
+
+
+@media screen and (min-width:800px) {
+  .productive {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+}

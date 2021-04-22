@@ -1,0 +1,6 @@
+.earlyAccess__title{
+    font-family: var(--family-title);
+    font-size: 1.125rem;
+    line-height: .875rem;
+    color: var(--white);
+}

@@ -1,0 +1,68 @@
+@import url("./-reset.css");
+@import url("./-variaveis.css");
+@import url("./utils.css");
+
+
+body {
+    background-color: var(--white);
+    font-family: var(--family-body);
+    font-size: var(--size-body);
+    font-weight: var(--weight-regular);
+
+}
+
+/* @media screen and (min-width: 1400px){
+    body {
+        max-width: 1400px;
+        margin: 0 auto;
+    }
+} */
+
+.container {
+    padding-left: 1.8rem;
+    padding-right: 1.8rem;
+}
+
+
+.title,
+.font-title {
+    font-size: var(--size-title);
+    font-weight: var(--weight-bold);
+}
+
+.title-secondary {
+    font-size: var(--size-title-seconday);
+    font-weight: var(--weight-bold);
+}
+
+.font-title {
+    font-family: var(--family-title);
+}
+
+.font-action,
+.font-nav {
+    font-family: var(--family-title);
+}
+
+a {
+  transition: transform .300s ease-in-out;
+}
+
+a:hover {
+  transform: translateY(-3px);
+}
+
+@media screen and (min-width: 800px) {
+
+  body {
+    max-width: 1200px;
+    margin: 0 auto;
+    font-size: 120% !important;
+  }
+
+  .container {
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+
+}

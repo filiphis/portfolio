@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <!-- <style>
+    @font-face {
+      font-family: "Open Sans";
+      src: local("Open Sans"), local("Open-Sans"),
+        url(assets/fonts/Open_Sans/OpenSans-Regular.ttf);
+      font-display: swap;
+    }
+
+    @font-face {
+      font-family: "Raleway";
+      src: local("Raleway"), url(assets/fonts/Raleway/Raleway.ttf);
+      font-display: swap;
+    }
+
+  </style> -->
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Fylo é um projeto disponibilizado pelo site frontendmentor para desenvolvedores praticar front end de uma maneria bem proxima do que seria um projeto real." />
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png" />
+
+  <title>Home | Fylo</title>
+
+  <link rel="preload" as="style" href="./assets/css/base/base.css" onload="this.rel='stylesheet'" />
+
+  <link rel="preload" as="style" href="./assets/css/cabecalho.css" onload="this.rel='stylesheet'" />
+  <link rel="preload" as="style" href="./assets/css/logo.css" onload="this.rel='stylesheet'" />
+
+  <link rel="preload" as="style" href="./assets/css/menu/menu-lista.css" onload="this.rel='stylesheet'" />
+  <link rel="preload" as="style" href="./assets/css/menu/menu-item.css" onload="this.rel='stylesheet'" />
+  <link rel="preload" as="style" href="./assets/css/menu/menu-link.css" onload="this.rel='stylesheet'" />
+
+  <link rel="preload" as="style" href="./assets/css/getAccess/getAccess.css" onload="this.rel='stylesheet'" />
+  <link rel="preload" as="style" href="./assets/css/getAccess/getAccess-image.css" onload="this.rel='stylesheet'" />
+  <link rel="preload" as="style" href="./assets/css/getAccess/getAccess-form.css" onload="this.rel='stylesheet'" />
+  <link rel="preload" as="style" href="./assets/css/getAccess/getAccess-content.css" onload="this.rel='stylesheet'" />
+
+  <link rel="preload" as="style" href="./assets/css/components/input.css" onload="this.rel='stylesheet'" />
+  <link rel="preload" as="style" href="./assets/css/components/button.css" onload="this.rel='stylesheet'" />
+
+  <link rel="preload" as="style" href="./assets/css/productive/productive.css" onload="this.rel='stylesheet'" />
+  <link rel="preload" as="style" href="./assets/css/productive/productive-image.css" onload="this.rel='stylesheet'" />
+  <link rel="preload" as="style" href="./assets/css/productive/productive-BackgroundCurve.css" onload="this.rel='stylesheet'" />
+  <link rel="preload" as="style" href="./assets/css/productive/productive-title.css" onload="this.rel='stylesheet'" />
+  <link rel="preload" as="style" href="./assets/css/productive/productive-paragraph.css" onload="this.rel='stylesheet'" />
+  <link rel="preload" as="style" href="./assets/css/productive/productive-link.css" onload="this.rel='stylesheet'" />
+  <link rel="preload" as="style" href="./assets/css/productive/productive-card.css" onload="this.rel='stylesheet'" />
+  <link rel="preload" as="style" href="./assets/css/productive/productiveCard/productiveCard-paragraph.css" onload="this.rel='stylesheet'" />
+  <link rel="preload" as="style" href="./assets/css/productive/productiveCard/productiveCard-avatar.css" onload="this.rel='stylesheet'" />
+  <link rel="preload" as="style" href="./assets/css/productive/productiveCard/productiveCard-image.css" onload="this.rel='stylesheet'" />
+  <link rel="preload" as="style" href="./assets/css/productive/productiveCard/productiveCard-content.css" onload="this.rel='stylesheet'" />
+  <link rel="preload" as="style" href="./assets/css/productive/productiveCard/productiveCard-name.css" onload="this.rel='stylesheet'" />
+  <link rel="preload" as="style" href="./assets/css/productive/productiveCard/productiveCard-occupation.css" onload="this.rel='stylesheet'" />
+  <link rel="preload" as="style" href="./assets/css/productive/productiveCard/productive__content.css" onload="this.rel='stylesheet'" />
+
+  <link rel="preload" as="style" href="./assets/css/earlyAccess/earlyAccess.css" onload="this.rel='stylesheet'" />
+  <link rel="preload" as="style" href="./assets/css/earlyAccess/earlyAccess-title.css" onload="this.rel='stylesheet'" />
+  <link rel="preload" as="style" href="./assets/css/earlyAccess/earlyAccess-paragraph.css" onload="this.rel='stylesheet'" />
+  <link rel="preload" as="style" href="./assets/css/earlyAccess/earlyAccess-form.css" onload="this.rel='stylesheet'" />
+  <link rel="preload" as="style" href="./assets/css/earlyAccess/earlyAccess-container.css" onload="this.rel='stylesheet'" />
+
+  <link rel="preload" as="style" href="./assets/css/footer/footer.css" onload="this.rel='stylesheet'" />
+  <link rel="preload" as="style" href="./assets/css/footer/footer-address.css" onload="this.rel='stylesheet'" />
+  <link rel="preload" as="style" href="./assets/css/footer/address-icon.css" onload="this.rel='stylesheet'" />
+  <link rel="preload" as="style" href="./assets/css/footer/footer-nav.css" onload="this.rel='stylesheet'" />
+  <link rel="preload" as="style" href="./assets/css/footer/footer-navItem.css" onload="this.rel='stylesheet'" />
+  <link rel="preload" as="style" href="./assets/css/footer/footer-navLink.css" onload="this.rel='stylesheet'" />
+  <link rel="preload" as="style" href="./assets/css/footer/footer-socials.css" onload="this.rel='stylesheet'" />
+  <link rel="preload" as="style" href="./assets/css/footer/footer-navigation.css" onload="this.rel='stylesheet'" />
+  <link rel="preload" as="style" href="./assets/css/footer/footer-image.css" onload="this.rel='stylesheet'" />
+</head>
+
+<body>
+  <a class="u-invisible" href="#mainContent">Go to main content</a>
+
+  <header class="cabecalho container">
+    <a href="#" class="logo-link" aria-label="Logo Fylo">
+      <img class="logo" src="./assets/images/logo.svg" alt="Logomarca da Fylo. Alguns arquivos empilhados" />
+    </a>
+    <nav class="menu" role="na">
+      <ul class="menu__lista">
+        <li class="menu__item">
+          <a href="#" class="menu__link">Features</a>
+        </li>
+        <li class="menu__item"><a href="#" class="menu__link">Team</a></li>
+        <li class="menu__item"><a href="#" class="menu__link">Sign in</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="" role="main">
+    <section class="getAccess container">
+      <img class="getAccess__image" src="assets/images/illustration-1.svg" alt="Ilustração de duas pessoas organizando arquivos" />
+
+      <div class="getAccess__content">
+        <h1 class="title u-align-center u-title-height u-big-margin-top" id="mainContent">
+          All your files in one secure location, accessible anywhere.
+        </h1>
+        <p class="u-align-center u-text-height u-large-margin-top">
+          Fylo stores your most important files in one secure location. Access
+          them wherever you need, share and collaborate with friends, family,
+          and co-workers
+        </p>
+        <form class="getAccess__form" action="#">
+          <label class="u-invisible" for="email">Enter your email: </label>
+          <input class="input font-action u-large-margin-top" type="text" name="" id="email" placeholder="Enter your email.." aria-label="Enter your email..." />
+          <button type="submit" class="button u-medium-margin-top">
+            Get Started
+          </button>
+        </form>
+      </div>
+    </section>
+    <div class="productive__BackgroundCurve"></div>
+    <section class="productive container">
+      <img class="productive__image" src="assets/images/illustration-2.svg" alt="Ilustração de três pessoas organizando 'mensagens na nuvem'" />
+
+      <div class="productive__content">
+        <h2 class="title-secondary u-align-center u-text-height productive__title">
+          Stay productive, wherever you are
+        </h2>
+        <p class="productive__paragraph u-text-height">
+          Never let location be an issue when accessing your files. Fylo has you
+          covered for all of your file storage needs
+        </p>
+        <p class="productive__paragraph u-text-height">
+          Securely share files and folders with friends, family and colleagues
+          for live collaboration. No email attachments required!
+        </p>
+
+        <a class="productive__link productive__link--arrow" href="#">See how Fylo works
+        </a>
+
+        <div class="productive__card">
+          <p class="productiveCard__paragraph">
+            Fylo has improved our team productivity by an order of magnitude.
+            SInce making the switch our team has become a well-oiled
+            colaboration machine.
+          </p>
+          <div class="productiveCard__avatar">
+            <img class="productiveCard__image" src="./assets/images/avatar-testimonial.jpg" alt="Testimonial Avatar" />
+            <div class="productiveCard__content">
+              <span class="productiveCard__name">Kyle Burton</span>
+              <span class="productiveCard__occupation">Founder & CEO, Huddle</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="earlyAccess">
+      <div class="earlyAccess__content">
+        <h2 class="earlyAccess__title u-align-center u-bold">
+          Get early access today
+        </h2>
+        <p class="earlyAccess__paragraph u-align-center">
+          It only takes a minute to sign up and our free starter tier is
+          extremely generous. If you have any questions, our support team
+          would be happy to help you
+        </p>
+      </div>
+      <form class="earlyAccess__form" action="#">
+        <label class="u-invisible" for="email-earlyAccess">Enter your email:
+        </label>
+        <input class="input input--earlyAccess font-action" id="email-earlyAccess" type="email" placeholder="Enter your email..." aria-label="Enter your email..." />
+        <button type="submit" class="button button--earlyAccess">
+          Get started for free
+        </button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <address class="footer__address">
+      <img class="footer__image" src="assets/images/logo-footer.svg" alt="Logomarca da Fylo. Alguns arquivos empilhados" />
+      <span class="address__icon address__icon--phone">Phone: <a href="tel:15431234567">+1-543-123-4567</a></span>
+      <span class="address__icon address__icon--mail"><a href="mailto:example@fylo.com">example@fylo.com</a></span>
+    </address>
+
+    <nav class="footer__navigation">
+      <ul class="footer__nav">
+        <li class="footer__navItem">
+          <a class="footer__navLInk" href="#">About Us</a>
+        </li>
+        <li class="footer__navItem">
+          <a class="footer__navLInk" href="#">Jobs</a>
+        </li>
+        <li class="footer__navItem">
+          <a class="footer__navLInk" href="#">Press</a>
+        </li>
+        <li class="footer__navItem">
+          <a class="footer__navLInk" href="#">Blog</a>
+        </li>
+      </ul>
+    </nav>
+
+    <nav class="footer__navigation">
+      <ul class="footer__nav">
+        <li class="footer__navItem">
+          <a class="footer__navLInk" href="#">Contact Us</a>
+        </li>
+        <li class="footer__navItem">
+          <a class="footer__navLInk" href="#">Terms</a>
+        </li>
+        <li class="footer__navItem">
+          <a class="footer__navLInk" href="#">Privacy</a>
+        </li>
+      </ul>
+    </nav>
+
+    <nav class="footer__socials">
+      <a href="#"><img src="assets/images/facebook-svgrepo-com.svg" alt="Facebook Icon" /></a>
+      <a href="#"><img src="assets/images/twitter-svgrepo-com.svg" alt="Twitter Icon" /></a>
+      <a href="#"><img src="assets/images/instagram-svgrepo-com.svg" alt="Instagram Icon" /></a>
+    </nav>
+  </footer>
+
+  <noscript>
+    <link rel="stylesheet" href="./assets/css/cabecalho.css" />
+    <link rel="stylesheet" href="./assets/css/logo.css" />
+    <link rel="stylesheet" href="./assets/css/menu/menu-lista.css" />
+    <link rel="stylesheet" href="./assets/css/menu/menu-item.css" />
+    <link rel="stylesheet" href="./assets/css/menu/menu-link.css" />
+    <link rel="stylesheet" href="./assets/css/getAccess.css" />
+    <link rel="stylesheet" href="./assets/css/components/input.css" />
+    <link rel="stylesheet" href="./assets/css/components/button.css" />
+
+    <link rel="stylesheet" href="./assets/css/productive/productive.css" />
+    <link rel="stylesheet" href="./assets/css/productive/productive-image.css" />
+    <link rel="stylesheet" href="./assets/css/productive/productive-BackgroundCurve.css" />
+    <link rel="stylesheet" href="./assets/css/productive/productive-title.css" />
+    <link rel="stylesheet" href="./assets/css/productive/productive-paragraph.css" />
+    <link rel="stylesheet" href="./assets/css/productive/productive-link.css" />
+
+    <link rel="stylesheet" href="./assets/css/productive/productive-card.css" />
+    <link rel="stylesheet" href="./assets/css/productive/productiveCard/productiveCard-paragraph.css" />
+    <link rel="stylesheet" href="./assets/css/productive/productiveCard/productiveCard-avatar.css" />
+    <link rel="stylesheet" href="./assets/css/productive/productiveCard/productiveCard-image.css" />
+    <link rel="stylesheet" href="./assets/css/productive/productiveCard/productiveCard-content.css" />
+    <link rel="stylesheet" href="./assets/css/productive/productiveCard/productiveCard-name.css" />
+    <link rel="stylesheet" href="./assets/css/productive/productiveCard/productiveCard-occupation.css" />
+  </noscript>
+</body>
+
+</html>

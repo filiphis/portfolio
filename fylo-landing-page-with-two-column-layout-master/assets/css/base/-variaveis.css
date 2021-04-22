@@ -1,0 +1,51 @@
+:root {
+
+  /* Typography */
+  --family-title: 'Raleway', sans-serif;
+  --family-nav: 'Raleway', sans-serif;
+  --family-body: 'Open Sans', sans-serif;
+
+  --weight-regular: 400;
+  --weight-bold: 700;
+
+  --size-title: 1.55rem;
+  --size-title-seconday: 1rem;
+  --size-body: 1rem;
+  --size-small: .9rem;
+
+  --text-height: 1.6;
+  --title-height: 1.6;
+
+
+  /* Colors */
+  --white: #ffffff;
+  --black: #000000;
+  --transparentBlack: #0000000F;
+
+  /* Primary Colors */
+  --dark-blue: #070439;
+  --desaturated-blue: #585989;
+
+  /* Accent Colors */
+  --bright-blue: #3065f8;
+  --moderate-cyan: #3c9f8f;
+
+  /* Neutral Colors */
+  --light-grayish-glue: #f6f6fe;
+  --light-gray: #bfbfbf;
+
+  /* border-style */
+  --border-radius: 3px;
+}
+
+@media screen and (min-width:800px) {
+  :root {
+    --size-title: calc(1.55rem * 1.30);
+    --size-title-seconday: calc(1rem * 1.30);
+    --size-body: calc(1rem * 1.30);
+    --size-small: calc(.9rem * 1.30);
+  }
+  body{
+
+  }
+}

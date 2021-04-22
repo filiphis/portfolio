@@ -1,0 +1,49 @@
+.u-text-height {
+  line-height: var(--text-height);
+}
+
+.u-title-height {
+  line-height: var(--title-height);
+}
+
+.u-align-center {
+  text-align: center;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.u-big-margin-top {
+  margin-top: 3rem;
+}
+
+.u-large-margin-top {
+  margin-top: 2rem;
+}
+
+.u-medium-margin-top {
+  margin-top: 1rem;
+}
+
+.u-small-margin-top {
+  margin-top: .5rem;
+}
+
+.u-bold {
+  font-weight: var(--weight-bold);
+}
+
+.u-invisible,
+.u-invisible:active,
+.u-invisible:focus,
+.u-invisible:hover {
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 1px;
+  height: 1px;
+  display: block;
+  color: transparent;
+  position: absolute;
+}

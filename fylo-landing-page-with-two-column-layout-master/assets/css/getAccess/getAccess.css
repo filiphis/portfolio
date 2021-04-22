@@ -1,0 +1,14 @@
+.getAccess {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+@media screen and (min-width:800px) {
+  .getAccess{
+    flex-direction: row-reverse;
+    margin-bottom: 5rem;
+  }
+}

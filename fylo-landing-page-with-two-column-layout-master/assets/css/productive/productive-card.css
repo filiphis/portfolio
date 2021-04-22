@@ -1,0 +1,22 @@
+.productive__card {
+  background-color: var(--white);
+  border-radius: .30rem;
+  box-shadow: 10px 10px 30px var(--transparentBlack);
+  color: var(--dark-blue);
+  margin: 0 auto;
+  margin-top: 2.2rem;
+  max-width: 22rem;
+  padding: 1.8rem;
+  padding-right: .9rem;
+  width: 90%;
+}
+
+
+
+@media screen and (min-width:800px) {
+  .productive__card {
+    margin: unset;
+    margin-top: 2rem;
+    max-width: 25rem;
+  }
+}

@@ -1,0 +1,19 @@
+.earlyAccess {
+  align-items: center;
+  background-color: var(--desaturated-blue);
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 4.5rem;
+  padding-top: 3.75rem;
+}
+
+@media screen and (min-width: 800px) {
+  .earlyAccess {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}

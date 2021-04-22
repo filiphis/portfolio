@@ -1,0 +1,12 @@
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.56rem;
+}
+
+@media screen and (min-width:800px) {
+  .logo-link {
+    height: 42px;
+  }
+}

@@ -1,0 +1,21 @@
+.address__icon {
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-top: 1rem;
+    padding-left: 2rem;
+}
+
+.address__icon--phone{
+    background-image: url(../../images/icon-phone.svg);
+}
+
+.address__icon--mail{
+    background-image: url(../../images/icon-email.svg);
+}
+
+
+
+@media screen and (min-width: 464px) {
+    .address__icon {
+    }
+}

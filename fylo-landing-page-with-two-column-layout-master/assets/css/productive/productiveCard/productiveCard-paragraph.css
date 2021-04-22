@@ -1,0 +1,21 @@
+.productiveCard__paragraph{
+    font-size: .73rem;
+    text-align: left;
+    line-height: 1.0625rem;
+    padding-top: 1rem;
+    background-image: url(../../../images/icon-quotes.svg);
+    background-size: 10px 10px;
+    background-repeat: no-repeat;
+    background-position: top left;
+    margin-top: 1px;
+}
+
+
+@media screen and (min-width:800px) {
+  .productiveCard__paragraph{
+    margin: unset;
+    /* margin-top: 2rem; */
+    max-width: 25rem;
+    font-size: .93rem;
+  }
+}

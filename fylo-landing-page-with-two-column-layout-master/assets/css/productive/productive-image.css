@@ -1,0 +1,24 @@
+.productive__image {
+    width: calc(100vw - 14px);
+    max-width: 100%;
+    margin-top: 16rem;
+    margin-top: 5.6rem;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: #f6f6fe; */
+}
+
+@media screen and (min-width: 550px) {
+    .productive__image {
+        max-width: 70%;
+    }
+}
+
+
+@media screen and (min-width:800px) {
+  .productive__image {
+    width: 45%;
+    /* max-width: 45%; */
+    margin: unset;
+  }
+}

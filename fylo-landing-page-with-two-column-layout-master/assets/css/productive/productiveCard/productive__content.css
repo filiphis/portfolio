@@ -1,0 +1,9 @@
+@media screen and (min-width:800px) {
+  .productive__content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 45%;
+
+  }
+}

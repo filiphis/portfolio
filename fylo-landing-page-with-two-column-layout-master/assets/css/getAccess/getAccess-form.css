@@ -1,0 +1,18 @@
+.getAccess__form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+@media screen and (min-width:800px) {
+  .getAccess__form{
+    flex-direction: row;
+    align-items: initial;
+  }
+
+  .u-large-margin-top,
+  .u-medium-margin-top{
+    margin-top: 2rem;
+  }
+}

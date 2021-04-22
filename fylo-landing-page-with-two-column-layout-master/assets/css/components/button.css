@@ -1,0 +1,38 @@
+.button {
+    font-family: inherit;
+    padding: .7rem 1.25rem;
+    width: 95%;
+    max-width: 310px;
+    border-radius: var(--border-radius);
+    border:  none;
+    background-color: var(--bright-blue);
+    color: var(--white);
+    font-weight: var(--weight-bold);
+}
+
+.button--earlyAccess {
+    width: 65%;
+    margin-top: .5rem;
+    padding: .5rem 1.25rem;
+    font-size: 0.75rem;
+    font-family: var(--family-nav);
+}
+
+button {
+  transition: background-color .300s ease-in-out;
+}
+
+button:hover {
+  /* transform: translateY(-5px); */
+  background-color: rgba(0, 63, 236, 0.9);
+}
+
+@media screen and (min-width:800px) {
+  .button {
+    flex-shrink: 2;
+  }
+
+  .getAccess__form .button {
+    margin-left: 1rem;
+  }
+}

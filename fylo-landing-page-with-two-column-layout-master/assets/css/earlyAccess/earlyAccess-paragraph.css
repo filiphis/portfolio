@@ -1,0 +1,13 @@
+.earlyAccess__paragraph{
+    color: var(--white);
+    max-width: 17.75rem;
+    margin-top: 1.5rem;
+    font-size: 0.9375rem;
+    line-height: 1.25rem;
+}
+
+@media screen and (min-width: 800px){
+  .earlyAccess__paragraph {
+    max-width: 30rem;
+  }
+}

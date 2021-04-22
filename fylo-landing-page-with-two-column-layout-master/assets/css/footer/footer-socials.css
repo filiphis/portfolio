@@ -1,0 +1,29 @@
+.footer__socials{
+    display: flex; 
+    justify-content: space-between;
+    margin-top: 2.375rem;
+    width: 6.875rem;
+}
+
+.footer__socials img {
+    border: 1px solid white;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}
+
+@media screen and (min-width: 474px) {
+    .footer__socials{
+        margin: 2.375rem auto 0;
+    }
+}
+
+
+@media screen and (min-width: 584px) {
+    .footer__socials {
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin: unset;
+        width: unset;
+    }
+}
