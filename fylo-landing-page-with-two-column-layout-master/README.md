@@ -5,7 +5,7 @@
 
 ## Preview
 
-Visualize a solução em: https://single-price-grid-component-zeta-liard.vercel.app/
+Visualize a solução em: https://fylo-landing-page-with-two-column-layout-lime.vercel.app/
 
 ![Design preview for the coding challenge](./design/desktop-preview.jpg)
 
