@@ -22,6 +22,7 @@ Repositorio para listar as soluções desenvolvidas para os desafios de [fronten
 | stats-preview-card-component | <img  src = "stats-preview-card-component/design/desktop-preview.jpg" width = "120 " /> | :heavy_check_mark: | [Repo](https://github.com/filiphis/portfolio/tree/main/stats-preview-card-component) | [Site](https://stats-preview-card-component-eta.vercel.app/) |
 | single-price-grid-component | <img  src = "single-price-grid-component/design/desktop-preview.jpg" width = "120 " /> | :heavy_check_mark: | [Repo](https://github.com/filiphis/portfolio/tree/main/single-price-grid-component) | [Site](https://single-price-grid-component-zeta-liard.vercel.app/) |
 | fylo-landing-page-with-two-column-layout-master | <img  src = "fylo-landing-page-with-two-column-layout-master/design/desktop-preview.jpg" width = "120 " /> | :heavy_check_mark: | [Repo](https://github.com/filiphis/portfolio/tree/main/fylo-landing-page-with-two-column-layout-master) | [Site](https://fylo-landing-page-with-two-column-layout-lime.vercel.app/) |
+| faq-accordion-card | <img  src = "faq-accordion-card/design/desktop-preview.jpg" width = "120 " /> | :heavy_check_mark: | [Repo](https://github.com/filiphis/portfolio/tree/main/faq-accordion-card) | [Site](https://faq-accordion-card-tau-three.vercel.app/) |
 
 
 
