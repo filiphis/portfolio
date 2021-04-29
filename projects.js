@@ -34,6 +34,12 @@ export const projects = [{
     Technologies: ['html', 'css', 'sass', 'bem'],
     difficulty: 'newbie',
   },
+  {
+    id: 7,
+    projectName: 'article-preview-component',
+    Technologies: ['html', 'css', 'sass', 'bem'],
+    difficulty: 'newbie',
+  },
 
 
 
