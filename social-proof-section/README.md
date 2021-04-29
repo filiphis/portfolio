@@ -5,7 +5,7 @@
 
 ## Preview
 
-Visualize a solução em: https://portfolio-six-flax.vercel.app/social-proof-section/index.html
+Visualize a solução em: https://portfolio-six-flax.vercel.app/social-proof-section/
 
 ![Design preview for the coding challenge](./design/desktop-preview.jpg)
 
