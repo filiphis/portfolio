@@ -142,7 +142,7 @@ table {
 }
 
 body {
-  background-color: #9eafc2;
+  background-color: #ecf2f8;
   padding: 4rem 2rem;
 }
 
@@ -150,7 +150,7 @@ body,
 input,
 button,
 textarea {
-  font: 400 1.6rem/1.5 "Manrope", sans-serif;
+  font: 400 1.3rem/1.6 "Manrope", sans-serif;
 }
 
 @media (min-width: 730px) {
