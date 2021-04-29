@@ -1,6 +1,6 @@
 // Tablet ++ resolution
 @mixin for-tablet {
-  @media (min-width: 900px) {
+  @media (min-width: 1130px) {
     @content;
   }
 }
