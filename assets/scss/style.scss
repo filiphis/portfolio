@@ -20,6 +20,10 @@ body {
   color: $paragraph-font-color;
   letter-spacing: 1px;
   font-weight: bold;
+  display: block;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid rgba(95, 99, 104, 0.068);
+  width: 100%;
 }
 
 .title {
@@ -102,7 +106,7 @@ body {
       position: absolute;
       top: 0;
       left: 0;
-	  bottom: -3px;
+      bottom: -3px;
       right: 0;
       z-index: -1;
     }
@@ -138,6 +142,7 @@ body {
     font-size: 1.2rem;
     font-family: $text-font;
     font-weight: bold;
+    text-transform: uppercase;
     color: white;
     padding: 0.4rem;
     margin: 0 0.4rem;
