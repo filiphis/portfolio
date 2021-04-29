@@ -5,7 +5,7 @@
 
 ## Preview
 
-<!-- Visualize a solução em: https://stats-preview-card-component-eta.vercel.app/ -->
+Visualize a solução em: https://portfolio-six-flax.vercel.app/social-proof-section/index.html
 
 ![Design preview for the coding challenge](./design/desktop-preview.jpg)
 
