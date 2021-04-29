@@ -46,13 +46,13 @@
       height: 104px;
       position: absolute;
 
-      background-image: url("/assets/images/bg-pattern-mobile.svg");
+      background-image: url("/faq-accordion-card/assets/images/bg-pattern-mobile.svg");
       background-repeat: no-repeat;
       background-position: center top;
       top: -30%;
 
       @include for-tablet {
-        background-image: url("/assets/images/bg-pattern-desktop.svg");
+        background-image: url("/faq-accordion-card/assets/images/bg-pattern-desktop.svg");
         width: 966px;
         height: 945px;
         background-repeat: no-repeat;
@@ -131,7 +131,7 @@
       height: 15px;
       right: -4%;
       padding: $global-padding / 2;
-      background-image: url("/assets/images/icon-arrow-down.svg");
+      background-image: url("/faq-accordion-card/assets/images/icon-arrow-down.svg");
       background-repeat: no-repeat;
       background-position: center center;
       transition: transform linear 0.3s;
