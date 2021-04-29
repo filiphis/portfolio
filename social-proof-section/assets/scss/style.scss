@@ -1,0 +1,49 @@
+@import "_base/base";
+@import "_call/call";
+@import "_stars/stars";
+@import "_testimonials/testimonials";
+
+.socialProof {
+  background-image: url("/assets/images/bg-pattern-top-mobile.svg"), url("/assets/images/bg-pattern-bottom-mobile.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: 0 0, left bottom;
+  background-size: contain, contain;
+
+  @include for-tablet {
+    background-image: none;
+    padding: 0 $global-space * 2;
+  }
+}
+
+.socialProof__main {
+  max-width: 600px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-rows: auto auto auto;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+    "call"
+    "stars"
+    "testimonials";
+
+  @include for-tablet {
+    max-width: 1200px;
+    grid-template-rows: auto auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "call stars"
+      "testimonials testimonials";
+  }
+}
+
+.call {
+  grid-area: call;
+}
+
+.stars {
+  grid-area: stars;
+}
+
+.testimonials {
+  grid-area: testimonials;
+}

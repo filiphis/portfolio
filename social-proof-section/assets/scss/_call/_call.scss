@@ -1,0 +1,34 @@
+.call {
+  margin-top: $global-space * 5;
+
+  @include for-tablet {
+    margin-top: $global-space * 5;
+  }
+
+  &__title {
+    font-size: 3.2rem;
+    color: $call-title-color;
+    font-weight: bold;
+    text-align: center;
+
+    @include for-tablet {
+      text-align: left;
+      font-size: 5rem;
+      max-width: 540px;
+      line-height: 1;
+    }
+  }
+
+  &__description {
+    color: $call-description-color;
+    text-align: center;
+    margin-top: $global-space * 2.4;
+
+    @include for-tablet {
+      text-align: left;
+      font-size: 1.8rem;
+      max-width: 540px;
+      margin-top: $global-space * 3;
+    }
+  }
+}
