@@ -3,12 +3,21 @@ $regular-font: "Manrope", sans-serif;
 
 $card-background-color: #ffffff;
 
-$title-color: #6d7f97;
+$title-color: #525564;
 $paragraph-color: #9eafc2;
 
-$userName-color: #6d7f97;
+$userName-color: #525564;
 $data-color: #9eafc2;
 
-$share-background-color: #6d7f97;
+// $iconShare-background-color: rgba(109, 127, 151, 0.3);
+$iconShare-background-color: rgba(236, 242, 248, 0.612);
+$iconShare--active-background-color: #6d8098;
+$share-background-color: #525564;
+$share-text-color: #9eafc2;
 
 $global-space: 1rem;
+$global-border-radius: 1rem;
+
+// Font
+$title-font-size: 1.7rem;
+$text-font-size: 1.4rem;

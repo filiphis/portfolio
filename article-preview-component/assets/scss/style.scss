@@ -1,1 +1,142 @@
 @import "base";
+
+.article {
+  padding: $global-space * 7 $global-space * 2.5;
+  margin: 0 auto;
+  margin-bottom: $global-space * 8;
+
+  &__container {
+    display: grid;
+    grid-template-columns: minmax(200px, 1fr);
+    grid-template-rows: 200px auto;
+    grid-template-areas:
+      "image"
+      "content";
+    gap: 4rem;
+    background-color: $card-background-color;
+    margin: 0 auto;
+
+    border-radius: $global-border-radius;
+    max-width: 430px;
+    position: relative;
+    overflow-y: hidden;
+  }
+
+  &__image {
+    grid-area: image;
+    border-radius: $global-border-radius $global-border-radius 0 0;
+    object-fit: cover;
+  }
+  &__content {
+    grid-area: content;
+    padding: 0 $global-space * 3.5;
+    padding-bottom: 2rem;
+  }
+
+  &__title {
+    color: $title-color;
+    font-size: $title-font-size;
+    font-weight: bold;
+  }
+
+  &__text {
+    margin-top: $global-space * 2;
+    color: #9eafc2;
+    font-size: $text-font-size;
+  }
+
+  &__shareButton {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $iconShare-background-color;
+    cursor: pointer;
+    span {
+      text-indent: -9999px;
+    }
+  }
+
+  &__user {
+    display: flex;
+    align-items: center;
+    // margin-bottom: $global-space * 2;
+    margin-top: $global-space * 4;
+  }
+
+  .user {
+    &__picture {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+    }
+
+    &__info {
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+      margin-left: $global-space * 1;
+    }
+    &__name {
+      color: $userName-color;
+      font-weight: bold;
+    }
+
+    &__date {
+      color: $data-color;
+    }
+  }
+
+  &__shareIcon {
+    width: 15px;
+    height: 13px;
+  }
+
+  &__share {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    height: 77px;
+    width: 100%;
+    background-color: $share-background-color;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0 0 $global-border-radius $global-border-radius;
+    padding: 0 $global-space * 3.5;
+    transform: translateY(77px);
+    transition: transform ease 0.2s;
+
+    &.active {
+      transform: translateY(0);
+    }
+
+    img {
+      width: 15px;
+      height: 13px;
+    }
+
+    span {
+      text-transform: uppercase;
+      color: $share-text-color;
+      letter-spacing: 5px;
+      font-weight: bold;
+    }
+  }
+
+  &__shareButton--white {
+    background-color: $iconShare--active-background-color;
+    span {
+      text-indent: -9999px;
+    }
+  }
+
+  &__shareIcon--white {
+  }
+}
+
+button {
+  outline: none;
+  border: none;
+}

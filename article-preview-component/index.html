@@ -20,9 +20,7 @@
 <body class="article">
 
   <main class="article__container">
-    <div class="article__image">
-      <img src="assets/images/drawers.jpg" alt="">
-    </div>
+    <img class="article__image" src="assets/images/drawers.jpg" alt="">
 
     <div class="article__content">
       <h1 class="article__title">Shift the overall look and feel by adding these wonderful touches to furniture in your home</h1>
@@ -33,8 +31,9 @@
           <span class="user__name">Michelle Appleton</span>
           <span class="user__date">28 Jun 2020</span>
         </div>
-        <button class="article__shareButton">
+        <button data-share href="" class="article__shareButton">
           <img class="article__shareIcon" src="assets/images/icon-share.svg" alt="share icon">
+          <span>open share</span>
         </button>
       </div>
     </div>
@@ -44,6 +43,10 @@
       <a href="#"><img src="assets/images/icon-facebook.svg" alt=""></a>
       <a href="#"><img src="assets/images/icon-twitter.svg" alt=""></a>
       <a href="#"><img src="assets/images/icon-pinterest.svg" alt=""></a>
+      <button href="" data-shareActive class="article__shareButton article__shareButton--white">
+        <img class="article__shareIcon article__shareIcon--white" src="assets/images/icon-share--active.svg" alt="share icon">
+        <span>close share</span>
+      </button>
     </div>
   </main>
 
@@ -54,7 +57,7 @@
 
 
 
-
+  <script src="assets/js/show.js"></script>
 </body>
 
 </html>
