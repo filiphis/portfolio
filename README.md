@@ -24,6 +24,7 @@ Repositorio para listar as soluções desenvolvidas para os desafios de [fronten
 | fylo-landing-page-with-two-column-layout-master | <img  src = "fylo-landing-page-with-two-column-layout-master/design/desktop-preview.jpg" width = "120 " /> | :heavy_check_mark: | [Repo](https://github.com/filiphis/portfolio/tree/main/fylo-landing-page-with-two-column-layout-master) | [Site](https://filiphis.github.io/portfolio/fylo-landing-page-with-two-column-layout-master/) |
 | faq-accordion-card | <img  src = "faq-accordion-card/design/desktop-preview.jpg" width = "120 " /> | :heavy_check_mark: | [Repo](https://github.com/filiphis/portfolio/tree/main/faq-accordion-card) | [Site](https://filiphis.github.io/portfolio/faq-accordion-card/) |
 | social-proof-section | <img  src = "social-proof-section/design/desktop-preview.jpg" width = "120 " /> | :heavy_check_mark: | [Repo](https://github.com/filiphis/portfolio/tree/main/social-proof-section) | [Site](https://filiphis.github.io/portfolio/social-proof-section/) |
+| article-preview-component | <img  src = "article-preview-component/design/desktop-preview.jpg" width = "120 " /> | :heavy_check_mark: | [Repo](https://github.com/filiphis/portfolio/tree/main/article-preview-component) | [Site](https://filiphis.github.io/portfolio/article-preview-component/) |
 
 
 
