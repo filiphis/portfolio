@@ -20,12 +20,25 @@
     max-width: 430px;
     position: relative;
     overflow-y: hidden;
+
+    @include for-tablet {
+      max-width: 740px;
+      grid-template-columns: 290px 440px;
+      grid-template-rows: auto;
+      grid-template-areas: "image content";
+      gap: 0;
+      overflow: visible;
+    }
   }
 
   &__image {
     grid-area: image;
     border-radius: $global-border-radius $global-border-radius 0 0;
     object-fit: cover;
+
+    @include for-tablet {
+      border-radius: $global-border-radius 0 0 $global-border-radius;
+    }
   }
   &__content {
     grid-area: content;
@@ -37,6 +50,10 @@
     color: $title-color;
     font-size: $title-font-size;
     font-weight: bold;
+
+    @include for-tablet {
+      margin-top: 4rem;
+    }
   }
 
   &__text {
@@ -108,8 +125,30 @@
     transform: translateY(77px);
     transition: transform ease 0.2s;
 
+    @include for-tablet {
+      transform: translateY(0) translateX(25%);
+      // Estado inicial
+      opacity: 0;
+
+      &::after {
+        content: "";
+        position: absolute;
+        bottom: -25px;
+        left: 49%;
+        transform: translateX(-50%);
+        border-top: 15px solid $share-background-color;
+        border-left: 15px solid transparent;
+        border-bottom: 15px solid transparent;
+        border-right: 15px solid transparent;
+      }
+    }
     &.active {
       transform: translateY(0);
+
+      @include for-tablet {
+        transform: translateY(0) translateX(25%);
+        opacity: 1;
+      }
     }
 
     img {
@@ -123,6 +162,14 @@
       letter-spacing: 5px;
       font-weight: bold;
     }
+
+    @include for-tablet {
+      width: 250px;
+      height: 55px;
+      right: 0;
+      bottom: 77px;
+      border-radius: $global-border-radius;
+    }
   }
 
   &__shareButton--white {
@@ -132,7 +179,11 @@
     }
   }
 
+  &__shareButton--white,
   &__shareIcon--white {
+    @include for-tablet {
+      display: none;
+    }
   }
 }
 

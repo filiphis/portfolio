@@ -4,7 +4,7 @@ const $articleShare = document.querySelector('.article__share');
 
 
 $shareBtn.addEventListener('click', () => {
-  $articleShare.classList.add('active');
+  $articleShare.classList.toggle('active');
 });
 
 $shareBtnActive.addEventListener('click', () => {
