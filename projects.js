@@ -40,6 +40,12 @@ export const projects = [{
     Technologies: ['html', 'css', 'js', 'sass', 'bem'],
     difficulty: 'newbie',
   },
+  {
+    id: 8,
+    projectName: 'four-card-feature-section',
+    Technologies: ['html', 'css', 'sass', 'bem'],
+    difficulty: 'newbie',
+  },
 
 
 
