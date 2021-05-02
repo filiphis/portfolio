@@ -1,16 +1,15 @@
-$color-background: #fff;
-$regular-font: "Lexend Deca", sans-serif;
-$bold-font: "Big Shoulders Display", cursive;
+$color-background: #fafafa;
+$regular-font: "Poppins", sans-serif;
 
-// ### Primary
-$bright-orange: #e38826;
-$dark-cyan: #006970;
-$very-dark-cyan: #004241;
+// Cards border color
+$red: #ea5353;
+$cyan: #45d3d3;
+$orange: #fcaf4a;
+$blue: #549ef2;
 
-// ### Neutral
+$card-background-color: #ffffff;
 
-//(paragraphs)
-$transparent-white: rgba(255, 255, 255, 0.75);
+$title-color: #4c4e61;
+$description-color: #a3a5ae;
 
-//(background, headings, buttons)
-$very-light-gray: #f2f2f2;
+$global-space: 1rem;
