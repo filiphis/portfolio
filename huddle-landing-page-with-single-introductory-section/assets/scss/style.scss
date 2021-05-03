@@ -2,3 +2,28 @@
 @import "_header/header";
 @import "_content/content";
 @import "_footer/footer";
+
+@include for-tablet {
+  .huddle {
+    display: grid;
+    grid-template-areas:
+      "header"
+      "content"
+      "footer";
+
+    grid-template-columns: 1fr;
+    grid-template-rows: min-content min-content min-content;
+  }
+
+  .header {
+    grid-area: header;
+  }
+
+  .content {
+    grid-area: content;
+  }
+
+  .footer {
+    grid-area: footer;
+  }
+}

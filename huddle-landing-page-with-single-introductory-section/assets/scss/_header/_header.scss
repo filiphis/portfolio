@@ -10,4 +10,13 @@
 
   &__logo {
   }
+
+  @include for-tablet {
+    grid-area: header;
+
+    &__link {
+      width: 210px;
+      height: 35px;
+    }
+  }
 }

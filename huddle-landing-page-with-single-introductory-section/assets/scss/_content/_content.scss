@@ -30,7 +30,7 @@
     border-radius: 20px;
     color: $content-button-color;
     font-family: $button-font;
-    transition: background, color 0.2s ease;
+    transition: all 0.2s ease;
     -webkit-tap-highlight-color: transparent;
 
     &:hover {
@@ -42,5 +42,34 @@
   &__imageBox {
     max-width: 700px;
     margin: 0 auto;
+  }
+
+  @include for-tablet {
+    display: grid;
+    grid-template-areas: "imageBox register";
+    grid-template-columns: 1fr 540px;
+    grid-template-rows: min-content;
+    gap: 6rem;
+
+    &__imageBox {
+      grid-area: imageBox;
+    }
+    &__register {
+      grid-area: register;
+      align-items: flex-start;
+      text-align: left;
+    }
+
+    &__title {
+      font-size: 4rem;
+    }
+
+    &__description {
+      font-size: 1.9rem;
+    }
+
+    &__register {
+      margin-top: 0;
+    }
   }
 }

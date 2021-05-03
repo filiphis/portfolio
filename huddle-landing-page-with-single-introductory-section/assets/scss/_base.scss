@@ -12,10 +12,16 @@
 
 body {
   background-color: $color-background;
-  padding: $global-space * 3;
   background-image: url(/assets/images/bg-mobile.svg);
   background-repeat: no-repeat;
   background-size: contain;
+  padding: $global-space * 3;
+
+  @include for-tablet {
+    padding: $global-space * 6 $global-space * 7.5 $global-space * 4;
+    background-image: url(/assets/images/bg-desktop.svg);
+    // background-size: cover;
+  }
 }
 
 body,

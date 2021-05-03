@@ -143,10 +143,16 @@ table {
 
 body {
   background-color: #674baf;
-  padding: 3rem;
   background-image: url(/assets/images/bg-mobile.svg);
   background-repeat: no-repeat;
   background-size: contain;
+  padding: 3rem;
+}
+@media (min-width: 950px) {
+  body {
+    padding: 6rem 7.5rem 4rem;
+    background-image: url(/assets/images/bg-desktop.svg);
+  }
 }
 
 body,
@@ -180,6 +186,16 @@ body {
   display: inline-block;
   max-width: 145px;
 }
+@media (min-width: 950px) {
+  .header {
+    grid-area: header;
+  }
+  .header__link {
+    width: 210px;
+    height: 35px;
+  }
+}
+
 .content {
   margin-top: 6.5rem;
 }
@@ -210,7 +226,7 @@ body {
   border-radius: 20px;
   color: #674baf;
   font-family: "Poppins", sans-serif;
-  transition: background, color 0.2s ease;
+  transition: all 0.2s ease;
   -webkit-tap-highlight-color: transparent;
 }
 .content__button:hover {
@@ -220,6 +236,32 @@ body {
 .content__imageBox {
   max-width: 700px;
   margin: 0 auto;
+}
+@media (min-width: 950px) {
+  .content {
+    display: grid;
+    grid-template-areas: "imageBox register";
+    grid-template-columns: 1fr 540px;
+    grid-template-rows: min-content;
+    gap: 6rem;
+  }
+  .content__imageBox {
+    grid-area: imageBox;
+  }
+  .content__register {
+    grid-area: register;
+    align-items: flex-start;
+    text-align: left;
+  }
+  .content__title {
+    font-size: 4rem;
+  }
+  .content__description {
+    font-size: 1.9rem;
+  }
+  .content__register {
+    margin-top: 0;
+  }
 }
 
 .footer {
@@ -245,6 +287,39 @@ body {
 .footer__image {
   width: 15px;
   height: 15px;
+}
+@media (min-width: 950px) {
+  .footer {
+    justify-content: flex-end;
+  }
+  .footer__socials {
+    width: 155px;
+  }
+  .footer__link {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media (min-width: 950px) {
+  .huddle {
+    display: grid;
+    grid-template-areas: "header" "content" "footer";
+    grid-template-columns: 1fr;
+    grid-template-rows: min-content min-content min-content;
+  }
+
+  .header {
+    grid-area: header;
+  }
+
+  .content {
+    grid-area: content;
+  }
+
+  .footer {
+    grid-area: footer;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
