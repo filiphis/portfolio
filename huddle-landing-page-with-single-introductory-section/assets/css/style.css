@@ -1,0 +1,250 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+s article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+:root {
+  font-size: 60%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #674baf;
+  padding: 3rem;
+  background-image: url(/assets/images/bg-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+body,
+input,
+button,
+textarea {
+  font: 400 1.75rem/1.6 "Open Sans", sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+@media (min-width: 950px) {
+  :root {
+    font-size: 62.5%;
+  }
+
+  :root,
+html,
+body {
+    min-height: 100vh;
+  }
+}
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+.header__link {
+  display: inline-block;
+  max-width: 145px;
+}
+.content {
+  margin-top: 6.5rem;
+}
+.content__register {
+  margin-top: 6.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.content__title {
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+.content__description {
+  margin-top: 2.5rem;
+  color: #ffffff;
+}
+.content__button {
+  margin-top: 2.5rem;
+  width: 210px;
+  height: 40px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 20px;
+  color: #674baf;
+  font-family: "Poppins", sans-serif;
+  transition: background, color 0.2s ease;
+  -webkit-tap-highlight-color: transparent;
+}
+.content__button:hover {
+  color: #ffffff;
+  background-color: #e882e8;
+}
+.content__imageBox {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.footer {
+  margin-top: 6rem;
+  display: flex;
+  justify-content: center;
+}
+.footer__socials {
+  width: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 35px;
+  height: 35px;
+  border: solid 2px #fff;
+  border-radius: 50%;
+}
+.footer__image {
+  width: 15px;
+  height: 15px;
+}
+
+/*# sourceMappingURL=style.css.map */

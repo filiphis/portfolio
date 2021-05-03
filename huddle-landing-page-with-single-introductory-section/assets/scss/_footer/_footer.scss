@@ -1,0 +1,27 @@
+.footer {
+  margin-top: $global-space * 6;
+  display: flex;
+  justify-content: center;
+
+  &__socials {
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    border: solid 2px #fff;
+    border-radius: 50%;
+  }
+
+  &__image {
+    width: 15px;
+    height: 15px;
+  }
+}

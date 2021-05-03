@@ -1,0 +1,46 @@
+.content {
+  margin-top: $global-space * 6.5;
+
+  &__register {
+    margin-top: $global-space * 6.5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  &__title {
+    color: $content-title-color;
+    font-family: $headings-font;
+    font-size: $content-title-fontSize;
+    font-weight: 600;
+  }
+
+  &__description {
+    margin-top: $global-space * 2.5;
+    color: $description-title-color;
+  }
+  &__button {
+    margin-top: $global-space * 2.5;
+    width: 210px;
+    height: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 20px;
+    color: $content-button-color;
+    font-family: $button-font;
+    transition: background, color 0.2s ease;
+    -webkit-tap-highlight-color: transparent;
+
+    &:hover {
+      color: $content-button-color--hover;
+      background-color: $content-button-bgColor--hover;
+    }
+  }
+
+  &__imageBox {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+}

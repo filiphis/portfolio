@@ -12,14 +12,21 @@
 
 body {
   background-color: $color-background;
-  padding: 4rem 2rem;
+  padding: $global-space * 3;
+  background-image: url(/assets/images/bg-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 body,
 input,
 button,
 textarea {
-  font: 400 1.6rem/1.5 $regular-font;
+  font: 400 1.75rem/1.6 $regular-font;
+}
+
+img {
+  max-width: 100%;
 }
 
 @include for-tablet {

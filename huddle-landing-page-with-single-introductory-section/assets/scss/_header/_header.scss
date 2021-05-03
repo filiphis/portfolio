@@ -1,0 +1,13 @@
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+
+  &__link {
+    display: inline-block;
+    max-width: 145px;
+  }
+
+  &__logo {
+  }
+}
