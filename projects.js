@@ -46,6 +46,12 @@ export const projects = [{
     Technologies: ['html', 'css', 'sass', 'bem'],
     difficulty: 'newbie',
   },
+  {
+    id: 9,
+    projectName: 'huddle-landing-page-with-single-introductory-section',
+    Technologies: ['html', 'css', 'sass', 'bem'],
+    difficulty: 'newbie',
+  },
 
 
 
