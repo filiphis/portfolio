@@ -1,0 +1,68 @@
+.card {
+  margin-top: $global-space * 7;
+  margin-bottom: $global-space * 5;
+  max-width: 350px;
+  @include for-tablet {
+    max-width: 100%;
+  }
+
+  @include for-tablet {
+    &__list {
+      display: flex;
+      align-items: center;
+    }
+
+    &__box {
+      width: 33.33%;
+    }
+  }
+
+  &__item {
+    max-width: 350px;
+    margin: $global-space * 1.5;
+    background-color: $card-background-color;
+    padding: $global-space * 3;
+
+    margin-bottom: $global-space * 2.5;
+    border-radius: $global-border-radius;
+
+    box-shadow: 1px 4px 10px 1px rgba(0, 0, 0, 0.2);
+
+    &--cyan {
+      border-top: 3px solid $cyan;
+    }
+    &--red {
+      border-top: 3px solid $red;
+    }
+    &--orange {
+      border-top: 3px solid $orange;
+    }
+    &--blue {
+      border-top: 3px solid $blue;
+    }
+
+    transition: transform ease 0.2s;
+    transform: scale(1);
+    will-change: contents;
+
+    &:hover {
+      transform: scale(1.04);
+    }
+  }
+
+  &__title {
+    color: $card-title-color;
+    font-weight: bold;
+    font-size: 2.2rem;
+  }
+
+  &__description {
+    color: $card-description-color;
+  }
+
+  &__image {
+    margin-top: $global-space * 3.5;
+    display: flex;
+    justify-content: flex-end;
+  }
+}

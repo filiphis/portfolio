@@ -1,7 +1,8 @@
+// Global
 $color-background: #fafafa;
 $regular-font: "Poppins", sans-serif;
 
-// Cards border color
+// Colors
 $red: #ea5353;
 $cyan: #45d3d3;
 $orange: #fcaf4a;
@@ -9,7 +10,18 @@ $blue: #549ef2;
 
 $card-background-color: #ffffff;
 
-$title-color: #4c4e61;
+$title-color: #a3a5ae;
+$title-color--bold: #4c4e61;
 $description-color: #a3a5ae;
+$card-title-color: #4c4e61;
+$card-description-color: #a3a5ae;
 
+// Font sizes
+$callTitle-fontSize: 2.4rem;
+$callTitleDeesktop-fontSize: 3.6rem;
+
+// Spaces
 $global-space: 1rem;
+
+//
+$global-border-radius: 0.6rem;

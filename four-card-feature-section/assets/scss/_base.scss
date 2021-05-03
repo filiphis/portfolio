@@ -12,14 +12,18 @@
 
 body {
   background-color: $color-background;
-  padding: 4rem 2rem;
+  padding: 9rem 4rem;
+
+  @include for-tablet {
+    padding: 8rem;
+  }
 }
 
 body,
 input,
 button,
 textarea {
-  font: 400 1.6rem/1.5 $regular-font;
+  font: 400 1.5rem/1.8 $regular-font;
 }
 
 @include for-tablet {

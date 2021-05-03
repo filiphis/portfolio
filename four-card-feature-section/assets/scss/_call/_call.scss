@@ -1,0 +1,28 @@
+.call {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  &__title {
+    display: block;
+    font-size: $callTitle-fontSize;
+    color: $title-color;
+    font-weight: 200;
+
+    @include for-tablet {
+      font-size: $callTitleDeesktop-fontSize;
+    }
+
+    &--bold {
+      font-weight: bold;
+      color: $title-color--bold;
+    }
+  }
+
+  &__description {
+    margin-top: $global-space * 3;
+    color: $description-color;
+    max-width: 500px;
+  }
+}

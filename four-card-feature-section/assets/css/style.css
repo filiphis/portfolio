@@ -143,14 +143,19 @@ table {
 
 body {
   background-color: #fafafa;
-  padding: 4rem 2rem;
+  padding: 9rem 4rem;
+}
+@media (min-width: 730px) {
+  body {
+    padding: 8rem;
+  }
 }
 
 body,
 input,
 button,
 textarea {
-  font: 400 1.6rem/1.5 "Poppins", sans-serif;
+  font: 400 1.5rem/1.8 "Poppins", sans-serif;
 }
 
 @media (min-width: 730px) {
@@ -163,6 +168,103 @@ html,
 body {
     min-height: 100vh;
   }
+}
+.call {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.call__title {
+  display: block;
+  font-size: 2.4rem;
+  color: #a3a5ae;
+  font-weight: 200;
+}
+@media (min-width: 730px) {
+  .call__title {
+    font-size: 3.6rem;
+  }
+}
+.call__title--bold {
+  font-weight: bold;
+  color: #4c4e61;
+}
+.call__description {
+  margin-top: 3rem;
+  color: #a3a5ae;
+  max-width: 500px;
+}
+
+.card {
+  margin-top: 7rem;
+  margin-bottom: 5rem;
+  max-width: 350px;
+}
+@media (min-width: 730px) {
+  .card {
+    max-width: 100%;
+  }
+}
+@media (min-width: 730px) {
+  .card__list {
+    display: flex;
+    align-items: center;
+  }
+  .card__box {
+    width: 33.33%;
+  }
+}
+.card__item {
+  max-width: 350px;
+  margin: 1.5rem;
+  background-color: #ffffff;
+  padding: 3rem;
+  margin-bottom: 2.5rem;
+  border-radius: 0.6rem;
+  box-shadow: 1px 4px 10px 1px rgba(0, 0, 0, 0.2);
+  transition: transform ease 0.2s;
+  transform: scale(1);
+  will-change: contents;
+}
+.card__item--cyan {
+  border-top: 3px solid #45d3d3;
+}
+.card__item--red {
+  border-top: 3px solid #ea5353;
+}
+.card__item--orange {
+  border-top: 3px solid #fcaf4a;
+}
+.card__item--blue {
+  border-top: 3px solid #549ef2;
+}
+.card__item:hover {
+  transform: scale(1.04);
+}
+.card__title {
+  color: #4c4e61;
+  font-weight: bold;
+  font-size: 2.2rem;
+}
+.card__description {
+  color: #a3a5ae;
+}
+.card__image {
+  margin-top: 3.5rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+body {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.fourCard__main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /*# sourceMappingURL=style.css.map */
