@@ -26,6 +26,7 @@ Repositorio para listar as soluções desenvolvidas para os desafios de [fronten
 | social-proof-section | <img  src = "social-proof-section/design/desktop-preview.jpg" width = "120 " /> | :heavy_check_mark: | [Repo](https://github.com/filiphis/portfolio/tree/main/social-proof-section) | [Site](https://portfolio-six-flax.vercel.app/social-proof-section/) |
 | article-preview-component | <img  src = "article-preview-component/design/desktop-preview.jpg" width = "120 " /> | :heavy_check_mark: | [Repo](https://github.com/filiphis/portfolio/tree/main/article-preview-component) | [Site](https://portfolio-six-flax.vercel.app/article-preview-component/) |
 | four-card-feature-section | <img  src = "four-card-feature-section/design/desktop-preview.jpg" width = "120 " /> | :heavy_check_mark: | [Repo](https://github.com/filiphis/portfolio/tree/main/four-card-feature-section) | [Site](https://portfolio-six-flax.vercel.app/four-card-feature-section/) |
+| huddle-landing-page-with-single-introductory-section | <img  src = "huddle-landing-page-with-single-introductory-section/design/desktop-preview.jpg" width = "120 " /> | :heavy_check_mark: | [Repo](https://github.com/filiphis/portfolio/tree/main/huddle-landing-page-with-single-introductory-section) | [Site](https://portfolio-six-flax.vercel.app/huddle-landing-page-with-single-introductory-section/) |
 
 
 
