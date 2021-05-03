@@ -1,11 +1,11 @@
-# Frontend Mentor - Stats preview card component
+# Frontend Mentor - Huddle landing page with single introductory section
 
 <!-- > **_Status:_** Em andamento :construction: -->
 > **_Status:_** Finalizado :heavy_check_mark:
 
 ## Preview
 
-Visualize a solução em: https://portfolio-six-flax.vercel.app/four-card-feature-section/
+Visualize a solução em: https://portfolio-six-flax.vercel.app/huddle-landing-page-with-single-introductory-section/
 
 ![Design preview for the coding challenge](./design/desktop-preview.jpg)
 
