@@ -25,7 +25,7 @@ Repositorio para listar as soluções desenvolvidas para os desafios de [fronten
 | faq-accordion-card | <img  src = "faq-accordion-card/design/desktop-preview.jpg" width = "120 " /> | :heavy_check_mark: | [Repo](https://github.com/filiphis/portfolio/tree/main/faq-accordion-card) | [Site](https://portfolio-six-flax.vercel.app/faq-accordion-card/) |
 | social-proof-section | <img  src = "social-proof-section/design/desktop-preview.jpg" width = "120 " /> | :heavy_check_mark: | [Repo](https://github.com/filiphis/portfolio/tree/main/social-proof-section) | [Site](https://portfolio-six-flax.vercel.app/social-proof-section/) |
 | article-preview-component | <img  src = "article-preview-component/design/desktop-preview.jpg" width = "120 " /> | :heavy_check_mark: | [Repo](https://github.com/filiphis/portfolio/tree/main/article-preview-component) | [Site](https://portfolio-six-flax.vercel.app/article-preview-component/) |
-| four-card-feature-section | <img  src = "four-card-feature-section/design/desktop-preview.jpg" width = "120 " /> | :heavy_check_mark: | [Repo](https://github.com/filiphis/portfolio/tree/main/four-card-feature-section) | [Site](https://portfolio-six-flax.vercel.app/four-card-feature-sectiont/) |
+| four-card-feature-section | <img  src = "four-card-feature-section/design/desktop-preview.jpg" width = "120 " /> | :heavy_check_mark: | [Repo](https://github.com/filiphis/portfolio/tree/main/four-card-feature-section) | [Site](https://portfolio-six-flax.vercel.app/four-card-feature-section/) |
 
 
 
