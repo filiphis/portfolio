@@ -55,3 +55,13 @@ projects.forEach(project => {
 
   lista.innerHTML += newProject;
 });
+
+
+
+// Redirecionando usuario
+const url = window.location.href;
+
+if (url.includes('https://filiphis.github.io/portfolio') || url.includes('portfolio-six-flax')) {
+  alert('Olá, este endereço mudou! Estou te redirecionando para o novo endereço :)');
+  window.location.href = 'https://portfolio-filiphis.vercel.app/';
+}
