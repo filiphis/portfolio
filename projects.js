@@ -52,6 +52,12 @@ export const projects = [{
     Technologies: ['html', 'css', 'sass', 'bem'],
     difficulty: 'newbie',
   },
+  {
+    id: 10,
+    projectName: 'typemaster-pre-launch-landing-page',
+    Technologies: ['html', 'css', 'sass', 'bem'],
+    difficulty: 'newbie',
+  },
 
 
 
