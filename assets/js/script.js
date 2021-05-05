@@ -36,7 +36,7 @@ projects.forEach(project => {
 
   const newProject =
     `
-  <li class="challenges__item challenges__card">
+  <li class="challenges__item challenges__card ${project.status =='desenvolvendo' ? 'desenvolvendo' : ''}">
   <figure class="challenges__figure">
     <img src="${project.projectName}/design/desktop-preview.jpg" alt="" class="challenges__image">
     <a class="challenges__link" href="${project.projectName}/" target="_blank">Visite</a>
