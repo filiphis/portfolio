@@ -181,7 +181,7 @@ body {
 
 .challenges__card.desenvolvendo::before {
   content: "Desenvolvendo";
-  width: 50%;
+  width: 60%;
   height: 30px;
   overflow: hidden;
   z-index: 10;
@@ -192,7 +192,7 @@ body {
   justify-content: center;
   background-color: rgba(0, 0, 0, 0.8);
   top: 30px;
-  right: -40px;
+  right: -14%;
   transform: rotate(40deg);
   font-size: 1.6rem;
   font-weight: bold;
