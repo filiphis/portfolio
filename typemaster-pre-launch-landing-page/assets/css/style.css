@@ -208,7 +208,7 @@ body {
 }
 .typemaster__links {
   margin: 3.2rem 0;
-  padding-right: 1.7rem;
+  text-align: center;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -320,7 +320,7 @@ body {
 
 .footer {
   margin-top: 9.6rem;
-  padding: 2.5rem;
+  padding: 2.5rem 0;
   text-align: center;
 }
 .footer__text {

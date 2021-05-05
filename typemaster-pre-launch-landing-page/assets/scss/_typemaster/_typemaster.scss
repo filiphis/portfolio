@@ -16,7 +16,8 @@
 
   &__links {
     margin: $global-space * 3.2 0;
-    padding-right: $global-space * 1.7;
+    // padding-right: $global-space * 1.7;
+    text-align: center;
     width: 100%;
     display: flex;
     justify-content: space-between;

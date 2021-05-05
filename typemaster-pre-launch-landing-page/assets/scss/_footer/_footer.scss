@@ -1,6 +1,7 @@
 .footer {
   margin-top: $global-space * 9.6;
-  padding: $global-space * 2.5;
+  padding: $global-space * 2.5 0;
+  // padding: 6.66%;
   text-align: center;
 
   &__text {
