@@ -41,17 +41,21 @@
 
   &__image {
     border-radius: $images-border-radius;
+    object-fit: cover;
 
-    &--noMarginLeft {
+    &--phone-keyboard {
       margin-left: -46px;
+      width: 39.2%;
     }
 
-    &--marginLeft {
-      margin-left: 22px;
-    }
-
-    &--marginBottom {
+    &--keyboard {
+      width: 113%;
       margin-bottom: 22px;
+    }
+
+    &--glass-keyboard {
+      margin-left: 22px;
+      width: 66.86%;
     }
   }
 }

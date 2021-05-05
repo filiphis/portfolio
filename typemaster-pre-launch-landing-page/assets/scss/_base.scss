@@ -23,6 +23,10 @@ a {
   font: 400 1.6rem/1.6 $regular-font;
 }
 
+img {
+  // max-width: 100%;
+}
+
 @include for-tablet {
   :root {
     font-size: 62.5%;

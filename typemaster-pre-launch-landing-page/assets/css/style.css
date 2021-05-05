@@ -241,15 +241,19 @@ body {
 }
 .typemaster__image {
   border-radius: 2rem;
+  object-fit: cover;
 }
-.typemaster__image--noMarginLeft {
+.typemaster__image--phone-keyboard {
   margin-left: -46px;
+  width: 39.2%;
 }
-.typemaster__image--marginLeft {
-  margin-left: 22px;
-}
-.typemaster__image--marginBottom {
+.typemaster__image--keyboard {
+  width: 113%;
   margin-bottom: 22px;
+}
+.typemaster__image--glass-keyboard {
+  margin-left: 22px;
+  width: 66.86%;
 }
 
 body,
