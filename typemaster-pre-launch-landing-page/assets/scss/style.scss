@@ -1,1 +1,10 @@
 @import "base";
+@import "components/_button/button";
+@import "_header/header";
+@import "_main/main";
+@import "_typemaster/typemaster";
+
+body,
+html {
+  overflow-x: hidden;
+}

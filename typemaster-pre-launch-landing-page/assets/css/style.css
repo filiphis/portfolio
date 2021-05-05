@@ -1,0 +1,260 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+s article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+:root {
+  font-size: 60%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  padding: 2.4rem;
+}
+
+body,
+input,
+button,
+textarea,
+a {
+  font: 400 1.6rem/1.6 "Barlow", sans-serif;
+}
+
+@media (min-width: 730px) {
+  :root {
+    font-size: 62.5%;
+  }
+
+  :root,
+html,
+body {
+    min-height: 100vh;
+  }
+}
+.header {
+  width: 100%;
+}
+.header__nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__linkLogo {
+  line-height: 0;
+}
+.header__button {
+  width: 150px;
+  height: 48px;
+  display: inline-block;
+  border-radius: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e8eff2;
+  color: #162542;
+}
+
+.main {
+  width: 100%;
+  margin-top: 6.4rem;
+}
+
+.typemaster {
+  max-width: 100%;
+}
+.typemaster__title {
+  font-size: 4.8rem;
+  color: #162542;
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: 1;
+}
+.typemaster__description {
+  margin-top: 3.2rem;
+  color: #7b8bad;
+}
+.typemaster__links {
+  margin: 3.2rem 0;
+  padding-right: 1.7rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.typemaster__links .typemaster__link {
+  text-decoration: none;
+}
+.typemaster__preOrderBtn {
+  width: 150px;
+  height: 48px;
+  display: inline-block;
+  border-radius: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f16718;
+  color: #ffffff;
+}
+.typemaster__releaseLink {
+  color: #7b8bad;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.typemaster__image {
+  border-radius: 2rem;
+}
+.typemaster__image--noMarginLeft {
+  margin-left: -46px;
+}
+.typemaster__image--marginLeft {
+  margin-left: 22px;
+}
+.typemaster__image--marginBottom {
+  margin-bottom: 22px;
+}
+
+body,
+html {
+  overflow-x: hidden;
+}
+
+/*# sourceMappingURL=style.css.map */

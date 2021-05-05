@@ -1,0 +1,57 @@
+.typemaster {
+  max-width: 100%;
+
+  &__title {
+    font-size: $typemaster-title-fontSize;
+    color: $typemaster-title-color;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 1;
+  }
+
+  &__description {
+    margin-top: $global-space * 3.2;
+    color: $typemaster-description-color;
+  }
+
+  &__links {
+    margin: $global-space * 3.2 0;
+    padding-right: $global-space * 1.7;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .typemaster__link {
+      text-decoration: none;
+    }
+  }
+
+  &__preOrderBtn {
+    @include button;
+    background-color: $typemaster-preOrderBtn-bgColor;
+    color: $typemaster-preOrderBtn-color;
+  }
+
+  &__releaseLink {
+    color: $typemaster-releaseLink-color;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  &__image {
+    border-radius: $images-border-radius;
+
+    &--noMarginLeft {
+      margin-left: -46px;
+    }
+
+    &--marginLeft {
+      margin-left: 22px;
+    }
+
+    &--marginBottom {
+      margin-bottom: 22px;
+    }
+  }
+}

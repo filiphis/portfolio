@@ -1,16 +1,23 @@
 $color-background: #fff;
-$regular-font: "Lexend Deca", sans-serif;
-$bold-font: "Big Shoulders Display", cursive;
+$regular-font: "Barlow", sans-serif;
 
-// ### Primary
-$bright-orange: #e38826;
-$dark-cyan: #006970;
-$very-dark-cyan: #004241;
+// Buttons
+$header-button-bgColor: #e8eff2;
+$header-button-color: #162542;
 
-// ### Neutral
+// Spaces
+$global-space: 1rem;
 
-//(paragraphs)
-$transparent-white: rgba(255, 255, 255, 0.75);
+// Radius
+$global-border-radius: 0.8rem;
+$images-border-radius: 2rem;
 
-//(background, headings, buttons)
-$very-light-gray: #f2f2f2;
+// Typemaster section
+$typemaster-title-color: #162542;
+$typemaster-title-fontSize: 4.8rem;
+$typemaster-description-color: #7b8bad;
+
+$typemaster-preOrderBtn-bgColor: #f16718;
+$typemaster-preOrderBtn-color: #ffffff;
+
+$typemaster-releaseLink-color: #7b8bad;

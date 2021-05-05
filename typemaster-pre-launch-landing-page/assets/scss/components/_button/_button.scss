@@ -1,0 +1,11 @@
+@mixin button {
+  width: 150px;
+  height: 48px;
+  display: inline-block;
+  border-radius: $global-border-radius;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
