@@ -1,5 +1,5 @@
 .typemaster {
-  max-width: 100%;
+  width: 100%;
 
   &__title {
     font-size: $typemaster-title-fontSize;
@@ -44,18 +44,18 @@
     object-fit: cover;
 
     &--phone-keyboard {
-      margin-left: -46px;
-      width: 39.2%;
+      margin-left: -14.06%;
+      width: 39%;
     }
 
     &--keyboard {
       width: 113%;
-      margin-bottom: 22px;
+      margin-bottom: 6.72%;
     }
 
     &--glass-keyboard {
-      margin-left: 22px;
-      width: 66.86%;
+      margin-left: 6.72%;
+      width: 67%;
     }
   }
 }

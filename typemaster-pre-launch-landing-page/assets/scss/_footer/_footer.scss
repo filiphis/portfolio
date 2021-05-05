@@ -1,0 +1,13 @@
+.footer {
+  margin-top: $global-space * 9.6;
+  padding: $global-space * 2.5;
+  text-align: center;
+
+  &__text {
+    color: $footer-text-color;
+
+    &--bold {
+      font-weight: bold;
+    }
+  }
+}
