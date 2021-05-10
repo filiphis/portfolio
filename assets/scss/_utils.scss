@@ -5,12 +5,6 @@
   }
 }
 
-// @mixin for-mobile700 {
-//   @media (max-width: 700px) {
-//     @content;
-//   }
-// }
-
 @mixin for-mobile {
   @media (max-width: 600px) {
     @content;
