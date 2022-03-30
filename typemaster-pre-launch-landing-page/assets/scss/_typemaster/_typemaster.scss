@@ -43,6 +43,7 @@
   &__image {
     border-radius: $images-border-radius;
     object-fit: cover;
+    line-height: 0;
 
     &--phone-keyboard {
       margin-left: -14.06%;
@@ -51,7 +52,7 @@
       display: inline-block;
 
       img {
-        max-width: 100%;
+        width: 100%;
       }
 
       &::before {
@@ -75,4 +76,8 @@
       width: 67%;
     }
   }
+
+  // @include for-tablet {
+  //   background-color: red;
+  // }
 }

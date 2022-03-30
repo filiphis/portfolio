@@ -1,11 +1,12 @@
-# Frontend Mentor - Stats preview card component
+# Frontend Mentor - Typemaster Pre Launch Landing Page
 
-<!-- > **_Status:_** Em andamento :construction: -->
-> **_Status:_** Finalizado :heavy_check_mark:
+> **_Status:_** Em andamento :construction:
+<!-- > **_Status:_** Finalizado :heavy_check_mark: -->
 
 ## Preview
 
-Visualize a solução em: https://portfolio-six-flax.vercel.app/four-card-feature-section/
+Visualize a solução em: https://portfolio-filiphis.vercel.app/typemaster-pre-launch-landing-page/
+
 
 ![Design preview for the coding challenge](./design/desktop-preview.jpg)
 
